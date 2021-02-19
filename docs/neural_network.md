@@ -1,11 +1,3 @@
----
-title: 机器学习
-date: 2021-02-07 14:27:48
-updated: 2021-02-07 14:27:48
-description: 关于机器学习的笔记
-category: 机器学习
----
-
 ## 改的一个例子
 ```py
 import numpy as np

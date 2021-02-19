@@ -1,10 +1,3 @@
----
-title: ssh
-date: 2021-02-09 16:03:10
-updated: 2021-02-09 16:03:10
-description:
-category: 编程
----
 生成ssh公钥
 `
 ssh-keygen -t rsa

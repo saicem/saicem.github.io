@@ -1,11 +1,3 @@
----
-title: Git相关操作
-date: 2021-02-18 10:27:25
-updated: 2021-02-18 10:27:25
-description: Git相关操作，容易忘，有用不常用的部分。
-category: git
----
-
 # git 如何忽略已经加入到版本控制的文件
 
 1. 增加 .gitignore 文件，里面添加需要忽略的文件(file_not_wanted)；

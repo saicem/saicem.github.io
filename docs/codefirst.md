@@ -1,10 +1,3 @@
----
-title: CodeFirst使用EF创建数据库
-date: 2020-12-17 22:41:07
-updated: 2021-01-01 11:25:00
-category: DataBase
----
-
 ### 步骤
 
 1. 安装 Entity Framework Core tools

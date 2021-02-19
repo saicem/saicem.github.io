@@ -1,11 +1,3 @@
----
-title: mysql用户操作
-date: 2020-12-27 14:55:01
-updated: 2021-02-10 15:44:00
-description:
-category: mysql
----
-
 ### 安装
 
 在 CentOS 8 上安装Mysql 需要使用 `dnf install @mysql`而不是 `dnf install mysql` 具体区别未知...

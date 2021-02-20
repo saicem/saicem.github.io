@@ -15,9 +15,10 @@
       name: '',
       repo: '',
       loadNavbar: true,
-      coverpage: true,
+      // coverpage: true,
       // loadSidebar: true,
       // subMaxLevel: 2
+      search: 'auto',
       count:{
         countable:true,
         fontsize:'0.9em',
@@ -25,23 +26,6 @@
         language:'chinese'
       }
     }
-  </script>
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <!-- Prism -->
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1.23.0/components/prism-csharp.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1.23.0/components/prism-python.min.js"></script>
-  <!-- Emoji -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
-  <!-- Zoom image -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
-  <!-- 字数统计 -->
-  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
-  <!-- GitTalk -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
-  <script>
     const gitalk = new Gitalk({
       clientID: '61b4d822e6e3773d9028',
       clientSecret: 'd43da56130a6047b8afc207dacb3fd2ec2cf4833',
@@ -52,6 +36,23 @@
       distractionFreeMode: false
     })
   </script>
-
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- Prism -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.23.0/components/prism-csharp.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.23.0/components/prism-python.min.js"></script>
+  <!-- Emoji -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <!-- Zoom image -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- 字数统计 count-->
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  <!-- GitTalk -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+  <!-- 全文搜索 search-->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>

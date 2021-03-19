@@ -1,3 +1,38 @@
+# 这是所有的文档
+
+## bot
+- [bot](bot/README.md)
+
+## cs
+- [common](cs/README.md)
+- [CodeFirst](cs/codefirst.md)
+
+## diary
+- [2020-11-18](diary/2020-11-18.md)
+
+## 学习观
+- [learn17](learn/learn17.md)
+
+## py
+- [python](py/README.md)
+
+## record
+- [cwsf](record/cwsf.md)
+
+## setting
+- [terminal](setting/terminal.md)
+- [vsc](setting/vsc.md)
+- [win](setting/win.md)
+
+## widget
+- [cron](widget/cron.md)
+- [git](widget/git.md)
+- [icalendar](widget/icalendar.md)
+- [mysql](widget/mysql.md)
+- [nginx](widget/nginx.md)
+- [node](widget/node.md)
+- [ssh](widget/ssh.md)
+
 # 这是一些方言
 
 !> 这是一段重要的话

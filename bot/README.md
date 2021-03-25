@@ -1,3 +1,8 @@
+## 相关网址
+
+[wiki](https://github.com/OPQBOT/OPQ/wiki)
+[QRCode](localhost:8888/v1/Login/GetQRcode)
+
 ## 标记解释
 
 本文档中所有 必须参数 使用 `<>` 标出

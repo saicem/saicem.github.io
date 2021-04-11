@@ -22,3 +22,10 @@ git rm --cached file_path
 git commit -m 'delete remote somefile'
 git push
 ```
+
+## git 强制拉取
+
+```git
+git fetch --all
+git reset --hard origin/master
+```

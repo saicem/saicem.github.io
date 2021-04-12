@@ -24,3 +24,15 @@
 # 图书
 
 - [全国图书馆参考咨询联盟](http://www.ucdrs.superlib.net/)
+
+# 工具
+
+- [twitter视频下载](https://twdown.net/)
+- [pastebin](https://pastebin.ubuntu.com/)
+- [极客OCR](http://www.gkocr.com/web/index.html)
+- [语音识别(英文)](https://speech-to-text-demo.ng.bluemix.net/)
+- [draw.io](https://app.diagrams.net/)
+- [在线图片编辑](https://www.photopea.com/)
+- [在线文件转换](https://www.online-convert.com/)
+- [图片转Icon](https://realfavicongenerator.net/)
+- [图片转??](https://convertio.co/zh/cur-converter/)

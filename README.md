@@ -3,18 +3,14 @@
 ## bot
 - [bot](bot/README.md)
 
-## cs
-- [common](cs/README.md)
-- [CodeFirst](cs/codefirst.md)
-
 ## diary
 - [2020-11-18](diary/2020-11-18.md)
 
 ## 学习观
 - [learn17](learn/learn17.md)
 
-## py
-- [python](py/README.md)
+## lang
+- [编程语言笔记](lang/README.md)
 
 ## record
 - [cwsf](record/cwsf.md)

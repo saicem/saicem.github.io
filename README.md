@@ -9,9 +9,6 @@
 ## 学习观
 - [learn17](learn/learn17.md)
 
-## lang
-- [编程语言笔记](lang/README.md)
-
 ## record
 - [cwsf](record/cwsf.md)
 
@@ -19,15 +16,6 @@
 - [terminal](setting/terminal.md)
 - [vsc](setting/vsc.md)
 - [win](setting/win.md)
-
-## widget
-- [cron](widget/cron.md)
-- [git](widget/git.md)
-- [icalendar](widget/icalendar.md)
-- [mysql](widget/mysql.md)
-- [nginx](widget/nginx.md)
-- [node](widget/node.md)
-- [ssh](widget/ssh.md)
 
 ## art
 - [art](art/README.md)

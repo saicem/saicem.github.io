@@ -5,6 +5,10 @@ date: 2021-02-20 19:20:55
 
 # 工具
 
+## 录屏
+- [screen to gif](https://github.com/NickeManarin/ScreenToGif)
+- [Captura](https://github.com/MathewSachin/Captura)
+
 ## 整理
 - Fences
 - 腾讯桌面整理

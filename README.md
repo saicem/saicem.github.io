@@ -16,6 +16,7 @@
 - [terminal](setting/terminal.md)
 - [vsc](setting/vsc.md)
 - [win](setting/win.md)
+- [mac](setting/mac.md)
 
 ## art
 - [art](art/README.md)

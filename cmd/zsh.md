@@ -1,0 +1,1 @@
+- [on my zsh安装脚本](https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)

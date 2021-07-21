@@ -10,6 +10,7 @@
 ## win
 
 - [oh my posh](https://ohmyposh.dev/)
+> 配置文件在 `$Home \ [My] 文档 \ PowerShell \Profile.ps1`
 
 ### 获取帮助
 command /?
@@ -22,3 +23,4 @@ command /?
 ## mac
 
 - [on my zsh安装脚本](https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)
+> 配置文件在 .zshrc

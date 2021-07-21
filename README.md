@@ -26,26 +26,35 @@
 ## nav
 - [nav](nav/README.md)
 
+## Python
 
+- [python一般笔记](py/README.md)
+- [python包](py/package.md)
 
-# 这是一些方言
+## C#
 
-!> 这是一段重要的话
+- [common](cs/README.md)
+- [CodeFirst](cs/codefirst.md)
 
-?> 这是一个普通提示
+## shell
 
-<details>
-<summary>这里可以展开</summary>
+- [shell](shell/README.md)
 
-- hello
-- hi
+## widget
 
-</details>
+- [cron](widget/cron.md)
+- [git](widget/git.md)
+- [icalendar](widget/icalendar.md)
+- [mysql](widget/mysql.md)
+- [nginx](widget/nginx.md)
+- [node](widget/node.md)
+- [ssh](widget/ssh.md)
+- [mailx](widget/mailx.md)
 
-<div style='color: red'>
+## mysql
 
-- listitem
-- listitem
-- listitem
+- [timefunc](./mysql/timefunc.md)
 
-</div>
+## tex
+
+- [tex](./tex/tex.md)

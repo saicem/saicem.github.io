@@ -1,0 +1,34 @@
+# mysql
+
+## 选取时间
+```SQL
+-- 2021-4-17
+SELECT CURDATE();
+SELECT CURRENT_TIME;
+-- 22:15:29
+SELECT CURTIME();
+SELECT CURRENT_DATE;
+-- 2021-4-17 22:15:29
+SELECT CURRENT_TIMESTAMP;
+```
+
+## 时间计算
+`TIMESTAMPDIFF(DAY,'2012-10-01','2013-01-13')`
+> 参数说明
+> - 可选 FRAC_SECOND、SECOND、 MINUTE、 HOUR、 DAY、 WEEK、 MONTH、 QUARTER、YEAR
+> - 返回指为后一个时间减去前一个时间
+
+`DATEDIFF('2013-01-13','2012-10-01')`
+> 返回前一个时间减去后一个时间的天数
+
+## 更新时间
+
+`DEFAULT CURRENT_TIMESTAMP`
+> 表示当插入数据的时候，该字段默认值为当前时间。
+
+`ON UPDATE CURRENT_TIMESTAMP`
+> 表示每次更新这条数据的时候，该字段都会更新成当前时间。
+
+```mysql
+`update_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间'
+```

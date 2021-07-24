@@ -41,7 +41,7 @@ SELECT CURRENT_TIMESTAMP;
 
 ```
 CREATE USER <用户名> [ IDENTIFIED  BY] [ PASSWORD ] <口令>
-CREATE USER 'jasmine'@'%' IDENTIFIED BY 'who is saicem';
+CREATE USER 'wonder'@'%' IDENTIFIED BY 'who is saicem';
 drop user saicem;
 ```
 
@@ -52,7 +52,7 @@ drop user saicem;
 3. IDENTIFIED BY子句
 用于指定用户账号对应的口令，若该用户账号无口令，则可省略此子句。
 4. <口令>
-指定用户账号的口令，在IDENTIFIED BY关键字或PASSWOED关键字之后。给定的口令值可以是只由字母和数字组成的明文，也可以是通过 PASSWORD() 函数得到的散列值。
+指定用户账号的口令，在`IDENTIFIED BY`关键字或 `PASSWORD` 关键字之后。给定的口令值可以是只由字母和数字组成的明文，也可以是通过 `PASSWORD()` 函数得到的散列值。
 
 ## 权限管理
 ```

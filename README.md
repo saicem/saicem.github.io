@@ -23,7 +23,7 @@
 - [win](config/win.md)
 
 ## Nav
-- [nav](nav/readme.md)
+- [nav](nav/README.md)
 
 ## Skill
 - [art](skill/art.md)

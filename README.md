@@ -16,6 +16,7 @@
 - [shell](code/shell.md)
 - [ssh](code/ssh.md)
 - [tex](code/tex.md)
+- [ansi转义代码](code/ansi.md)
 
 ## Config
 - [terminal](config/terminal.md)

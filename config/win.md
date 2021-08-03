@@ -22,21 +22,14 @@ date: 2021-02-20 19:20:55
 - Typora
 - Postman
 - Fiddler
-- WinSCP
+- [WinSCP](https://winscp.net/eng/docs/lang:chs)
 - DBeaver
 - [putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
-## 笔记软件
-- notepads
-> 记事本的完美替代品
-- Onenote
-- 语雀
-- wolai我来
-
 ## 日常使用
 - TIM
-- Bandzip
-- V2rayN
+- [Bandzip](http://www.bandisoft.com/)
+- [V2rayN](https://github.com/2dust/v2rayN/)
 
 ## 浏览器插件
 
@@ -45,25 +38,24 @@ date: 2021-02-20 19:20:55
 - Tampermonkey
 - 哔哩哔哩助手
 
-### Chorme
-- Astar
-- 猫抓
-
 ## 清理
 - CCleaner
-- geek
-- spacesniff
-- WizTree(中文界面，速度快)
+- [geek](https://geekuninstaller.com/)
+- [WizTree](https://www.diskanalyzer.com/download)
+> 中文界面，速度快
+
 - Autoruns(注册表清理工具)
 
 ## 其它
-- OCTAVE | 开源软件 代替 MATLAB
+- OCTAVE
+> 开源软件 代替 MATLAB
+
 - 达芬奇 DaVinci
 - VirtualBox
 - PotPlayer
 - Visio
 - Axure
-- drow.io 
+- [draw.io](https://app.diagrams.net/)
 - veracrypt
 > 加密软件
 

@@ -26,6 +26,10 @@
 
 - [全国图书馆参考咨询联盟](http://www.ucdrs.superlib.net/)
 
+## PPT
+
+- [1PPT](http://www.1ppt.com/)
+
 ## 工具
 
 - [twitter视频下载](https://twdown.net/)
@@ -33,7 +37,12 @@
 - [极客OCR](http://www.gkocr.com/web/index.html)
 - [语音识别(英文)](https://speech-to-text-demo.ng.bluemix.net/)
 - [draw.io](https://app.diagrams.net/)
+
+### 图片处理
 - [在线图片编辑](https://www.photopea.com/)
 - [在线文件转换](https://www.online-convert.com/)
 - [图片转Icon](https://realfavicongenerator.net/)
 - [图片转??](https://convertio.co/zh/cur-converter/)
+### PDF
+- [ilovepdf](https://www.ilovepdf.com/zh-cn)
+- [Smallpdf](https://smallpdf.com/cn/)

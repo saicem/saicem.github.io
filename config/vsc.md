@@ -89,3 +89,6 @@ Also, instead of using the snippet argument value to define your snippet inline,
 
 ## Key Bindings
 [链接](https://code.visualstudio.com/docs/getstarted/keybindings)
+
+## plunges
+搭配 [pandoc](https://www.pandoc.org/) 使用更佳

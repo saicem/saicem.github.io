@@ -13,7 +13,7 @@
 - [mysql](widget/mysql.md)
 - [nginx](widget/nginx.md)
 - [python](widget/python.md)
-- [shell](widget/shell.md)
+- [cmd](widget/cmd.md)
 - [ssh](widget/ssh.md)
 - [tex](widget/tex.md)
 - [ansi转义代码](widget/ansi.md)
@@ -22,6 +22,7 @@
 - [terminal](config/terminal.md)
 - [vsc](config/vsc.md)
 - [win](config/win.md)
+- [shell](config/shell.md)
 
 ## Nav
 - [nav](nav/README.md)

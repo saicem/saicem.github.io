@@ -2,6 +2,7 @@
 title: Nginx配置<br>
 date: 2021-02-23 20:48:08
 ---
+# nginx
 
 ## uri中的变量
 

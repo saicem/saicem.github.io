@@ -2,6 +2,8 @@
 title: 终端
 date: 2021-02-23 22:50:22
 ---
+# Terminal
+
 ## Windows 终端提示与技巧
 [链接](https://docs.microsoft.com/zh-cn/windows/terminal/tips-and-tricks)
 

@@ -1,3 +1,5 @@
+# mailx
+
 ## 安装`mailx`
 ```shell
 yum  -y install mailx
@@ -15,7 +17,6 @@ set smtp-auth-user=13510861001  //邮箱用户名
 set smtp-auth-password="XXX"    //邮箱授权码&密码
 set smtp-auth=login             //SMTP的认证方式，默认是login
 ```
-
 
 ## 发送邮件
 - mail -s "subject" address < filepath

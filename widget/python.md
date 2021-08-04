@@ -71,3 +71,12 @@ print(("FalseValue", "TrueValue")[a > b]) # 运行结果为：FalseValue
 
 ### uvicorn
 > 配合 fastapi 尚未研究
+
+### [Faker](https://faker.readthedocs.io/en/master/)
+- [Locale zh_CN](https://faker.readthedocs.io/en/master/locales/zh_CN.html#faker-providers-address)
+```
+from faker import Faker
+fake = Faker('zh_CN')
+Faker.seed(0)
+print(fake.name())
+```

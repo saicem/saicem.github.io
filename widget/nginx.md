@@ -46,11 +46,8 @@ $document_uri #与$uri相同。
 
 ## 一些小问题
 
-{% note green %}
-listen 443 与 listen 443 ssl 的区别?
-{% endnote %}
+**listen 443 与 listen 443 ssl 的区别?**
 
-{% note blue %}
 只要配置了证书，都可以通过https访问。但没有ssl的话，可以直接通过443端口访问，而设置了ssl则会返回。
 ```html
 <html>
@@ -62,4 +59,3 @@ listen 443 与 listen 443 ssl 的区别?
 </body>
 </html>
 ```
-{% endnote %}

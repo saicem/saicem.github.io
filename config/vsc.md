@@ -91,4 +91,7 @@ Also, instead of using the snippet argument value to define your snippet inline,
 [链接](https://code.visualstudio.com/docs/getstarted/keybindings)
 
 ## plunges
-搭配 [pandoc](https://www.pandoc.org/) 使用更佳
+- Markdown All In One
+> 搭配 [pandoc](https://www.pandoc.org/) 使用更佳
+- Polacode
+> 生成漂亮的代码块图片

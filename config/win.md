@@ -47,13 +47,11 @@ date: 2021-02-20 19:20:55
 - [geek](https://geekuninstaller.com/)
 - [WizTree](https://www.diskanalyzer.com/download)
 > 中文界面，速度快
-
 - Autoruns(注册表清理工具)
 
 ## 其它
 - OCTAVE
 > 开源软件 代替 MATLAB
-
 - 达芬奇 DaVinci
 - VirtualBox
 - PotPlayer

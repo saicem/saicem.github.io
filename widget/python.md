@@ -1,5 +1,7 @@
 # python笔记
+
 ## pip
+
 ```shell
 pip freeze > requirements.txt
 # 导出当前环境配置
@@ -11,20 +13,10 @@ pip uninstall -r python_modules.txt -y
 
 ### 使用清华源
 
-写入用户文件夹下的pip文件夹下的pip.ini文件
-```
-[global]
-index-url = https://pypi.tuna.tsinghua.edu.cn/simple
-```
-
-或
-```
+```shell
 pip install 要安装的包 -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
-
-### 腾讯镜像
-https://mirrors.tencent.com/help/pypi.html
 
 ## 选择表达式
 
@@ -57,24 +49,31 @@ print(("FalseValue", "TrueValue")[a > b]) # 运行结果为：FalseValue
 ## python package
 
 ### pymysql
+
 > 连接mysql
 > 依赖 pip install cryptography
 
 ### RandomWords
-> https://randomwords.readthedocs.io/en/latest/how_to_use.html
+
+> <https://randomwords.readthedocs.io/en/latest/how_to_use.html>
 
 ### black
+
 > 格式化
 
 ### fastapi
+
 > 快速api开发
 
 ### uvicorn
+
 > 配合 fastapi 尚未研究
 
 ### [Faker](https://faker.readthedocs.io/en/master/)
+
 - [Locale zh_CN](https://faker.readthedocs.io/en/master/locales/zh_CN.html#faker-providers-address)
-```
+
+```shell
 from faker import Faker
 fake = Faker('zh_CN')
 Faker.seed(0)

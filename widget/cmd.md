@@ -1,12 +1,15 @@
 # CMD
 
 ## 获取时间
+
 `date +%Y-%m-%dT%H:%M:%S`
 
 ## 根据进程名杀死进程
-`pkill` 
+
+`pkill`
 
 ## 查看端口占用
+
 - `lsof -i`
 - `netstat -tunlp`
   - `-t (tcp) 仅显示tcp相关选项`

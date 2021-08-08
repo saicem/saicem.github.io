@@ -6,7 +6,7 @@
 
     CSI n1 [;n2 [;…]] m
 
-其中CSI全称为“控制序列引导器”（Control Sequence Introducer/Initiator），也就是上述示例中的`\033[`. 
+其中CSI全称为“控制序列引导器”（Control Sequence Introducer/Initiator），也就是上述示例中的`\033[`.
 
 n1、n2等表示SGR参数（下面会列出一些常用的SGR参数），用于控制颜色、粗体、斜体、闪烁等文本输出格式；m表示转义序列结束。
 

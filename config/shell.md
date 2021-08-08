@@ -3,14 +3,16 @@
 ## win
 
 - [oh my posh](https://ohmyposh.dev/)
+
 > 配置文件在 `$Home \ [My] 文档 \ PowerShell \Profile.ps1`
 
 ### 临时设置终端代理
 
 #### CMD
+
 > 好像不可行
 
-```
+```zsh
 临时设置
 set http_proxy=socks5://127.0.0.1:10808
 set https_proxy=socks5://127.0.0.1:10808
@@ -25,16 +27,20 @@ set https_proxy=
 ```
 
 #### POWER SHELL
+
 > 亲测可行
-```
+
+```bash
 $env:https_proxy = "localhost:7890"
 $env:http_proxy = "localhost:7890"
 ```
 
 ### 获取帮助
+
 command /?
 
 ### net 命令
+
 1. `net start` 查看已启动的服务
 2. `net share` 查看当前用户下的共享目录
 3. `net user` 查看当前机器上的用户
@@ -54,13 +60,14 @@ command /?
 `echo $PATH`
 查看系统路径，复制路径。
 
-2. 切换到zsh `sudo vim ~/.zshrc` 
+2. 切换到zsh `sudo vim ~/.zshrc`
 在 If you come from bash you might have to change your $PATH.下面添加刚才的路径
 `export PATH=" you path copy just now "`
 
 3. `source ~/.zshrc` 加载配置
 
 - [on my zsh安装脚本](https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)
+
 > 配置文件在 .zshrc
 
 ```zshrc
@@ -69,29 +76,29 @@ ANTIGEN="$HOME/.local/bin/antigen.zsh"
 
 # Install antigen.zsh if not exist
 if [ ! -f "$ANTIGEN" ]; then
-	ANTIGEN="$HOME/.local/bin/antigen.zsh"
-	echo "Installing antigen ..."
+ ANTIGEN="$HOME/.local/bin/antigen.zsh"
+ echo "Installing antigen ..."
 
-	[ ! -d "$HOME/.local" ] && mkdir -p "$HOME/.local" 2> /dev/null
-	[ ! -d "$HOME/.local/bin" ] && mkdir -p "$HOME/.local/bin" 2> /dev/null
-	[ ! -f "$HOME/.z" ] && touch "$HOME/.z"
-	URL="http://git.io/antigen"
-	TMPFILE="/tmp/antigen.zsh"
-	if [ -x "$(which curl)" ]; then
-		curl -L "$URL" -o "$TMPFILE" 
-	elif [ -x "$(which wget)" ]; then
-		wget "$URL" -O "$TMPFILE" 
-	else
-		echo "ERROR: please install curl or wget before installation !!"
-		exit
-	fi
-	if [ ! $? -eq 0 ]; then
-		echo ""
-		echo "ERROR: downloading antigen.zsh ($URL) failed !!"
-		exit
-	fi;
-	echo "move $TMPFILE to $ANTIGEN"
-	mv "$TMPFILE" "$ANTIGEN"
+ [ ! -d "$HOME/.local" ] && mkdir -p "$HOME/.local" 2> /dev/null
+ [ ! -d "$HOME/.local/bin" ] && mkdir -p "$HOME/.local/bin" 2> /dev/null
+ [ ! -f "$HOME/.z" ] && touch "$HOME/.z"
+ URL="http://git.io/antigen"
+ TMPFILE="/tmp/antigen.zsh"
+ if [ -x "$(which curl)" ]; then
+  curl -L "$URL" -o "$TMPFILE" 
+ elif [ -x "$(which wget)" ]; then
+  wget "$URL" -O "$TMPFILE" 
+ else
+  echo "ERROR: please install curl or wget before installation !!"
+  exit
+ fi
+ if [ ! $? -eq 0 ]; then
+  echo ""
+  echo "ERROR: downloading antigen.zsh ($URL) failed !!"
+  exit
+ fi;
+ echo "move $TMPFILE to $ANTIGEN"
+ mv "$TMPFILE" "$ANTIGEN"
 fi
 
 
@@ -149,8 +156,8 @@ antigen bundle zsh-users/zaw
 
 # check login shell
 if [[ -o login ]]; then
-	[ -f "$HOME/.local/etc/login.sh" ] && source "$HOME/.local/etc/login.sh"
-	[ -f "$HOME/.local/etc/login.zsh" ] && source "$HOME/.local/etc/login.zsh"
+ [ -f "$HOME/.local/etc/login.sh" ] && source "$HOME/.local/etc/login.sh"
+ [ -f "$HOME/.local/etc/login.zsh" ] && source "$HOME/.local/etc/login.zsh"
 fi
 
 # syntax color definition

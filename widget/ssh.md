@@ -1,11 +1,8 @@
----
-title: ssh<br>
-date: 2021-02-25 14:09:52
----
 # ssh
 
 ## ssh-keygen
-```
+
+```man
 -b bits
     Specifies the number of bits in the key to create.  For RSA keys, the minimum size is 1024 bits and the
     default is 3072 bits.  Generally, 3072 bits is considered sufficient.  DSA keys must be exactly 1024
@@ -30,8 +27,10 @@ date: 2021-02-25 14:09:52
 ```
 
 ## 使用ssh连接服务器
+
 ssh连接 将 rsa_id.pub 写入 authorized_keys
 
-### 权限要求 
+### 权限要求
+
 - `chmod 700 -R .ssh`
 - `chmod 600 authorized_keys`

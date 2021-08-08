@@ -1,5 +1,5 @@
-
 # TeX
+
 ## 安装宏包
 
 1. 放入宏包目录下 `\texmf-local\tex\latex`
@@ -16,10 +16,9 @@
 
 ## 使用 VSCode 写 LaTeX
 
-- https://zhuanlan.zhihu.com/p/38178015
-- https://zhuanlan.zhihu.com/p/106167792
-- https://blog.csdn.net/qq_28303495/article/details/89848209
-
+- <https://zhuanlan.zhihu.com/p/38178015>
+- <https://zhuanlan.zhihu.com/p/106167792>
+- <https://blog.csdn.net/qq_28303495/article/details/89848209>
 
 ## 实用网站
 

@@ -1,22 +1,23 @@
-# C#
+# C\#
 
 ## code first
 
 ### 步骤
 
 1. 安装 Entity Framework Core tools
-- Get the .NET Core CLI tools
-`dotnet tool install --global dotnet-ef`
-- Get the Package Manager Console tools
-`Install-Package Microsoft.EntityFrameworkCore.Tools`
+   - Get the .NET Core CLI tools
+   `dotnet tool install --global dotnet-ef`
+   - Get the Package Manager Console tools
+   `Install-Package Microsoft.EntityFrameworkCore.Tools`
 
 2. 完成数据库的设置
-- 安装EF Core nuget包
-- 创建实体类及上下文
-- 配置appsettings.json
-- 配置Startup.cs
+   - 安装EF Core nuget包
+   - 创建实体类及上下文
+   - 配置appsettings.json
+   - 配置Startup.cs
 
 3. 使用以下命令生成Migrations 并生成数据库(程序包管理器控制台)
+
 ```c#
 Install-Package Microsoft.EntityFrameworkCore.Tools
 Add-Migration InitialCreate
@@ -31,9 +32,9 @@ Update-Database
 
 ### 更多
 
-#### More than one DbContext was found. Specify which one to use. Use the '-Context' parameter for PowerShell commands and the '--context' parameter for dotnet commands.
+#### More than one DbContext was found. Specify which one to use. Use the '-Context' parameter for PowerShell commands and the '--context' parameter for dotnet commands
 
-```
+```shell
 add-migrations Initial -context DemoDbContext
 ```
 

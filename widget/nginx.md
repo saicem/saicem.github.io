@@ -1,7 +1,3 @@
----
-title: Nginx配置<br>
-date: 2021-02-23 20:48:08
----
 # nginx
 
 ## uri中的变量
@@ -49,6 +45,7 @@ $document_uri #与$uri相同。
 **listen 443 与 listen 443 ssl 的区别?**
 
 只要配置了证书，都可以通过https访问。但没有ssl的话，可以直接通过443端口访问，而设置了ssl则会返回。
+
 ```html
 <html>
 <head><title>400 The plain HTTP request was sent to HTTPS port</title></head>

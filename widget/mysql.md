@@ -1,6 +1,7 @@
 # mysql
 
 ## 选取时间
+
 ```SQL
 -- 2021-4-17
 SELECT CURDATE();
@@ -13,8 +14,10 @@ SELECT CURRENT_TIMESTAMP;
 ```
 
 ## 时间计算
+
 `TIMESTAMPDIFF(DAY,'2012-10-01','2013-01-13')`
 > 参数说明
+>
 > - 可选 FRAC_SECOND、SECOND、 MINUTE、 HOUR、 DAY、 WEEK、 MONTH、 QUARTER、YEAR
 > - 返回指为后一个时间减去前一个时间
 
@@ -39,7 +42,7 @@ SELECT CURRENT_TIMESTAMP;
 
 ## 用户管理
 
-```
+```bash
 CREATE USER <用户名> [ IDENTIFIED  BY] [ PASSWORD ] <口令>
 CREATE USER 'wonder'@'%' IDENTIFIED BY 'who is saicem';
 drop user saicem;
@@ -55,7 +58,8 @@ drop user saicem;
 指定用户账号的口令，在`IDENTIFIED BY`关键字或 `PASSWORD` 关键字之后。给定的口令值可以是只由字母和数字组成的明文，也可以是通过 `PASSWORD()` 函数得到的散列值。
 
 ## 权限管理
-```
+
+```bash
 # 查看权限
 SHOW GRANTS FOR user@host;
 # 授予所有权限

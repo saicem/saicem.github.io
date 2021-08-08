@@ -1,10 +1,7 @@
----
-title: "VS Code 设置"
-date: 2021-02-24 11:06:44
----
 # VS Code
 
 ## Snippets
+
 [链接](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
 
 ### Variables
@@ -49,7 +46,8 @@ For inserting line or block comments, honoring the current language:
 - `LINE_COMMENT` Example output: in PHP //
 
 The snippet below inserts `/* Hello World */` in JavaScript files and `<!-- Hello World -->` in HTML files:
-```
+
+```json
 {
   "hello": {
     "scope": "javascript,html",
@@ -62,7 +60,8 @@ The snippet below inserts `/* Hello World */` in JavaScript files and `<!-- Hell
 ### Assign keybindings to snippets
 
 You can create custom keybindings to insert specific snippets. Open keybindings.json (Preferences: Open Keyboard Shortcuts File), which defines all your keybindings, and add a keybinding passing "snippet" as an extra argument:
-```
+
+```json
 {
   "key": "cmd+k 1",
   "command": "editor.action.insertSnippet",
@@ -72,10 +71,12 @@ You can create custom keybindings to insert specific snippets. Open keybindings.
   }
 }
 ```
+
 The keybinding will invoke the Insert Snippet command but instead of prompting you to select a snippet, it will insert the provided snippet. You define the custom keybinding as usual with a keyboard shortcut, command ID, and optional when clause context for when the keyboard shortcut is enabled.
 
 Also, instead of using the snippet argument value to define your snippet inline, you can reference an existing snippet by using the langId and name arguments. The langId argument is the name of the JSON user snippet file and name is the snippet's unique name from this file:
-```
+
+```json
 {
   "key": "cmd+k 1",
   "command": "editor.action.insertSnippet",
@@ -88,10 +89,15 @@ Also, instead of using the snippet argument value to define your snippet inline,
 ```
 
 ## Key Bindings
+
 [链接](https://code.visualstudio.com/docs/getstarted/keybindings)
 
 ## plunges
+
 - Markdown All In One
+
 > 搭配 [pandoc](https://www.pandoc.org/) 使用更佳
+
 - Polacode
+
 > 生成漂亮的代码块图片

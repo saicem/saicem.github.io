@@ -95,9 +95,8 @@ Also, instead of using the snippet argument value to define your snippet inline,
 ## plunges
 
 - Markdown All In One
-
-> 搭配 [pandoc](https://www.pandoc.org/) 使用更佳
-
+  > 搭配 [pandoc](https://www.pandoc.org/) 使用更佳
 - Polacode
-
-> 生成漂亮的代码块图片
+  > 生成漂亮的代码块图片
+- Tabnine
+  > 有时很有用，有时很**，我决定还是不用。

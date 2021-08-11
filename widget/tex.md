@@ -1,5 +1,11 @@
 # TeX
 
+## 安装TexLive
+
+- [参考教程](https://liam.page/texlive/)
+- [官方网站](https://tug.org/texlive/)
+- [win清华镜像源](https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/texlive2021.iso)
+
 ## 安装宏包
 
 1. 放入宏包目录下 `\texmf-local\tex\latex`

@@ -1,5 +1,7 @@
 # win
 
+此文档用于重置`Windows`后快速配置环境。
+
 ## 设置
 
 ### 基本设置
@@ -9,9 +11,9 @@
 - 剪切板 开启历史记录
 - 搜索 增强
 - 输入法默认模式 英文
-- 电源 设置 系统 电源和睡眠 其他电源设置 启用快速启动（推荐）关闭
-- 回收站隐藏 主题 桌面图标设置
-- 系统保护-系统还原  
+- 电源和睡眠-其他电源设置-启用快速启动（推荐）关闭
+- 回收站隐藏-主题-桌面图标设置
+- 系统保护-系统还原-设置还原点
 
 ### 睡眠和休眠
 
@@ -31,6 +33,8 @@
 - drop it
 - [PowerToys](https://docs.microsoft.com/zh-cn/windows/powertoys/)
 
+> 其实基本不用，都是手动整理的。
+
 #### 桌面格子
 
 - Fences
@@ -47,13 +51,16 @@
 - [Git](https://git-scm.com/download/win)
 - [mingw-w64](http://mingw-w64.org/doku.php/download)
   > 它会让你在这[下载](https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/)  
-  > 可以参考的[教程](https://www.jianshu.com/p/d66c2f2e3537)  
-  > 这个是[离线安装教程](https://zhuanlan.zhihu.com/p/268275871)  
-  > 使用[清华源](https://zhuanlan.zhihu.com/p/140509790)  
-  > [另一篇](https://mybestcool.github.io/2018/08/06/mingw-environment/)  
-  > 这个玩意每次重置电脑都麻烦的一批~  
 - [Python](https://www.python.org/downloads/)
-  > `pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple`
+  > 设置清华源`pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple`
+- [go](https://golang.org/)
+  
+  ```pwsh
+  # 设置模块代理
+  go env -w GO111MODULE=on
+  go env -w GOPROXY=https://goproxy.cn,direct
+  ```
+
 - [winget](https://docs.microsoft.com/en-us/windows/package-manager/winget/)
 - [oh my posh](https://ohmyposh.dev/)
 
@@ -68,6 +75,7 @@
 - Postman
 - Fiddler
 - [WinSCP](https://winscp.net/eng/docs/lang:chs)
+  > 后来用 vscode 了
 - [DBeaver](https://dbeaver.io/)
 - [putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
@@ -84,6 +92,8 @@
 - Adblock plus
 - Tampermonkey
 - 哔哩哔哩助手
+- 草料二维码
+- Vimium C
 
 ### 清理
 

@@ -1,4 +1,6 @@
-# git 如何忽略已经加入到版本控制的文件
+# Git
+
+## git 如何忽略已经加入到版本控制的文件
 
 1. 增加 .gitignore 文件，里面添加需要忽略的文件(file_not_wanted)；
 2. 执行命令 git rm -r --cached .  注意，最后的点。不要省略。

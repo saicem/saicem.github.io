@@ -8,27 +8,7 @@
 
 ### 临时设置终端代理
 
-#### CMD
-
-> 好像不可行
-
-```zsh
-临时设置
-set http_proxy=socks5://127.0.0.1:10808
-set https_proxy=socks5://127.0.0.1:10808
-
-如果有用户名和密码
-set http_proxy_user=jake
-set http_proxy_pass=abcd
-
-取消设置
-set http_proxy=
-set https_proxy=
-```
-
 #### POWER SHELL
-
-> 亲测可行
 
 ```bash
 $env:https_proxy = "localhost:7890"

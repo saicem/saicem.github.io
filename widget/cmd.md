@@ -1,5 +1,7 @@
 # CMD
 
+[Bash 脚本教程](https://wangdoc.com/bash/index.html)
+
 ## 获取时间
 
 `date +%Y-%m-%dT%H:%M:%S`

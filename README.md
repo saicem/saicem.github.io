@@ -26,7 +26,6 @@
 - [terminal](config/terminal.md)
 - [vsc](config/vsc.md)
 - [win](config/win.md)
-- [shell](config/shell.md)
 
 ## Nav
 
@@ -35,3 +34,8 @@
 ## Skill
 
 - [art](skill/art.md)
+
+## shell
+
+- [shell](config/shell.md)
+- [zsh](shell/zsh.md)

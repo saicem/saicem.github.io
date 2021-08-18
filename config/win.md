@@ -23,6 +23,10 @@
 
 ## 工具
 
+### office
+
+<https://otp.landian.vip/zh-cn/>
+
 ### 录屏
 
 - [screen to gif](https://github.com/NickeManarin/ScreenToGif)

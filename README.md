@@ -35,7 +35,7 @@
 
 - [art](skill/art.md)
 
-## shell
+## Shell
 
 - [shell](config/shell.md)
 - [zsh](shell/zsh.md)

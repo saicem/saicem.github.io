@@ -37,5 +37,5 @@
 
 ## Shell
 
-- [shell](config/shell.md)
+- [shell](shell/shell.md)
 - [zsh](shell/zsh.md)

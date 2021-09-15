@@ -42,7 +42,7 @@ add-migrations Initial -context DemoDbContext
 
 ## Serilog
 
-```cs
+```C#
 Log.Logger = new LoggerConfiguration()
   .MinimumLevel.Debug()
   .WriteTo.Console()
@@ -54,8 +54,22 @@ Log.Logger = new LoggerConfiguration()
 
 自定义端口
 
-```cs
+```C#
 webBuilder.UseUrls("http://+:5917");
   webBuilder.UseSetting("https_port", "5918");
   webBuilder.UseStartup<Startup>();
+```
+
+## 生成Api文档(xml)
+
+项目 -> 属性 -> 输出 -> 文档文件 生成包含API文档的文件
+
+```C#
+services.AddSwaggerGen(c =>
+{
+  c.SwaggerDoc("v1", new OpenApiInfo { Title = "BotWonder", Version = "v1" });
+  var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+  var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+  c.IncludeXmlComments(xmlPath);
+});
 ```

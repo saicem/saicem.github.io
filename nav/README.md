@@ -61,3 +61,8 @@
 - [CODELF](https://unbug.github.io/codelf/)
 
 > 代码命名
+
+## 打字
+
+- [Typing-speed-test](https://www.livechat.com/typing-speed-test/#/)
+- [TypingClub](https://www.typingclub.com/sportal/)

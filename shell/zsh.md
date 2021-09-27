@@ -5,7 +5,8 @@
 
 ### 改变用户默认shell
 
-`/etc/passwd`
+修改文件 `/etc/passwd`
+通过命令行修改 `chsh -s /bin/zsh`
 
 ### bash 切换到 zsh 环境变量丢失
 

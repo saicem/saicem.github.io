@@ -20,6 +20,7 @@
 - [tex](widget/tex.md)
 - [ansi转义代码](widget/ansi.md)
 - [docker](widget/docker.md)
+- [R](widget/r.md)
 
 ## Config
 

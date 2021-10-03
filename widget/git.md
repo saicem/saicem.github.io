@@ -30,3 +30,21 @@ git push
 git fetch --all
 git reset --hard origin/master
 ```
+
+## ssh连接失败
+
+> ssh: connect to host github.com port 22: Connection timed out
+
+`sudo nano ~/.ssh/config`
+
+添加以下内容
+
+```text
+Host github.com
+ Hostname ssh.github.com
+ Port 443
+```
+
+> Sometimes, firewalls refuse to allow SSH connections entirely. If using HTTPS cloning with credential caching is not an option, you can attempt to clone using an SSH connection made over the HTTPS port. Most firewall rules should allow this, but proxy servers may interfere
+
+- [参考链接](https://stackoverflow.com/questions/15589682/ssh-connect-to-host-github-com-port-22-connection-timed-out)

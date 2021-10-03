@@ -73,9 +73,11 @@ print(("FalseValue", "TrueValue")[a > b]) # 运行结果为：FalseValue
 
 - [Locale zh_CN](https://faker.readthedocs.io/en/master/locales/zh_CN.html#faker-providers-address)
 
-```shell
+```python
 from faker import Faker
 fake = Faker('zh_CN')
 Faker.seed(0)
 print(fake.name())
 ```
+
+### [cacheout](https://cacheout.readthedocs.io/en/latest/)

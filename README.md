@@ -26,7 +26,6 @@
 - [go](lang/go.md)
 - [R](lang/r.md)
 
-
 ## Config
 
 - [terminal](config/terminal.md)

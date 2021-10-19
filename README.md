@@ -44,3 +44,4 @@
 
 - [shell](shell/shell.md)
 - [zsh](shell/zsh.md)
+- [pwsh](shell/pwsh.md)

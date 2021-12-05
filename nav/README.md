@@ -5,6 +5,7 @@
 - [Overleaf](https://cn.overleaf.com/login)
 - [TeX Live 下载及安装说明](https://liam.page/texlive/)
 - [LaTeX 入门文档](https://liam.page/2014/09/08/latex-introduction/)
+- [一份（不太）简短的 LATEX 2ε 介绍](https://mirrors.tuna.tsinghua.edu.cn/CTAN/info/lshort/chinese/lshort-zh-cn.pdf)
 - [KaTeX字符](https://katex.org/docs/supported.html)
 
 ## Web前端

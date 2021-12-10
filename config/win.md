@@ -32,6 +32,8 @@
 - [screen to gif](https://github.com/NickeManarin/ScreenToGif)
 - [Captura](https://github.com/MathewSachin/Captura)
 
+> Captura 好东西！ 简单的录屏其实 QQ 就够了
+
 ### 整理
 
 - drop it
@@ -81,7 +83,7 @@
 - [WinSCP](https://winscp.net/eng/docs/lang:chs)
   > 后来用 vscode 了
 - [DBeaver](https://dbeaver.io/)
-- [putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+- [BloomRpc](https://github.com/bloomrpc/bloomrpc)
 
 ### 日常使用
 
@@ -114,6 +116,5 @@
 - 达芬奇 DaVinci
 - VirtualBox
 - PotPlayer
-- Visio
 - Axure
 - [draw.io](https://app.diagrams.net/)

@@ -16,7 +16,6 @@
 - [mailx](widget/mailx.md)
 - [mysql](widget/mysql.md)
 - [nginx](widget/nginx.md)
-- [python](widget/python.md)
 - [ssh](widget/ssh.md)
 - [tex](widget/tex.md)
 
@@ -24,6 +23,7 @@
 
 - [csharp](lang/csharp.md)
 - [go](lang/go.md)
+- [python](lang/python.md)
 - [R](lang/r.md)
 
 ## Config

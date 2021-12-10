@@ -36,7 +36,6 @@
 ## 工具
 
 - [twitter视频下载](https://twdown.net/)
-- [pastebin](https://pastebin.ubuntu.com/)
 - [极客OCR](http://www.gkocr.com/web/index.html)
 - [语音识别(英文)](https://speech-to-text-demo.ng.bluemix.net/)
 - [draw.io](https://app.diagrams.net/)

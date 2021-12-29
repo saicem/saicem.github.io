@@ -20,30 +20,8 @@ pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 
 ## 选择表达式
 
-**先定义变量：**
-
 ```Python
-a = 1
-b = 2
-```
-
-**第一种写法：**
-
-```Python
-erroStr = "More" if a > b else "Less"
-print(erroStr) # 运行结果为：Less
-```
-
-**第二种写法：**
-
-```Python
-print({True: "More", False: "Less"}[a > b]) # 运行结果为：Less
-```
-
-**第三种写法：**
-
-```Python
-print(("FalseValue", "TrueValue")[a > b]) # 运行结果为：FalseValue
+result = "a > b" if a > b else "a <= b"
 ```
 
 ## python package
@@ -55,19 +33,7 @@ print(("FalseValue", "TrueValue")[a > b]) # 运行结果为：FalseValue
 
 ### RandomWords
 
-> <https://randomwords.readthedocs.io/en/latest/how_to_use.html>
-
-### black
-
-> 格式化
-
-### fastapi
-
-> 快速api开发
-
-### uvicorn
-
-> 配合 fastapi 尚未研究
+> [如何使用](https://randomwords.readthedocs.io/en/latest/how_to_use.html)
 
 ### [Faker](https://faker.readthedocs.io/en/master/)
 

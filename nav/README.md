@@ -10,15 +10,12 @@
 
 ## Web前端
 
-- [electron](http://www.electronjs.org/)
-- [react](https://react.docschina.org/)
 - [CDN](http://www.staticfile.org/)
 - [印记中文](https://docschina.org/)
 - [WebGradient](https://webgradients.com/)
 - [Iconfont](https://www.iconfont.cn/)
 - [FontAwesome](https://fa5.dashgame.com/#/%E4%B8%BB%E9%A1%B5)
 - [炫酷配色](https://www.coocolors.com/)
-- [echarts示例](https://echarts.apache.org/examples/zh/index.html)
 
 ## 医学科普
 
@@ -64,5 +61,4 @@
 
 ## 打字
 
-- [Typing-speed-test](https://www.livechat.com/typing-speed-test/#/)
 - [TypingClub](https://www.typingclub.com/sportal/)

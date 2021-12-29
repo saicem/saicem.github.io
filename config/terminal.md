@@ -5,8 +5,6 @@
 
 - [自定义终端指南](https://docs.microsoft.com/zh-cn/windows/terminal/custom-terminal-gallery/custom-schemes)
 
->实践证明，使用模组会极大降低`pwsh`的启动速度。
-
 - [PowerShell 配置文件](https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_profiles?view=powershell-7.1)
 
 - [Custom actions in Windows Terminal](https://docs.microsoft.com/zh-cn/windows/terminal/customize-settings/actions)

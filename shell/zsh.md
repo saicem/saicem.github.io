@@ -3,12 +3,12 @@
 - mac
 - linux
 
-### 改变用户默认shell
+## 改变用户默认shell
 
 修改文件 `/etc/passwd`
 通过命令行修改 `chsh -s /bin/zsh`
 
-### bash 切换到 zsh 环境变量丢失
+## bash 切换到 zsh 环境变量丢失
 
 1. 在bash下面执行
 `echo $PATH`

@@ -1,5 +1,6 @@
 # Terminal
 
+- [美化 PowerShell 7 - 安裝 Oh My Posh + 各種好用的插件](https://blog.kwchang0831.dev/blog/dev-env/pwsh-oh-my-posh)
 - [Windows 终端提示与技巧](https://docs.microsoft.com/zh-cn/windows/terminal/tips-and-tricks)
 
 - [自定义终端指南](https://docs.microsoft.com/zh-cn/windows/terminal/custom-terminal-gallery/custom-schemes)

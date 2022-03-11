@@ -1,5 +1,9 @@
 # R语言相关
 
+## 教程
+
+- <https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook/index.html>
+
 ## 镜像站
 
 [清华镜像](https://mirrors.tuna.tsinghua.edu.cn/CRAN/)

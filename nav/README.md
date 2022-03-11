@@ -1,5 +1,9 @@
 # 目录
 
+## 基础
+
+- [设计模式](https://refactoringguru.cn/)
+
 ## Tex
 
 - [Overleaf](https://cn.overleaf.com/login)
@@ -51,14 +55,17 @@
 
 ## 代码
 
-- [carbon](https://carbon.now.sh/)
-
-> 代码块美化
-
-- [CODELF](https://unbug.github.io/codelf/)
-
-> 代码命名
+- [carbon](https://carbon.now.sh/) 代码块美化
+- [CODELF](https://unbug.github.io/codelf/) 变量命名
 
 ## 打字
 
 - [TypingClub](https://www.typingclub.com/sportal/)
+
+## 头像生成
+
+- [WaifuLabs](https://waifulabs.com/)
+
+## 词典
+
+- [万词王](https://wantwords.thunlp.org/home/) 查找同义词

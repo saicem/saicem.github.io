@@ -16,11 +16,13 @@
 - [mailx](widget/mailx.md)
 - [mysql](widget/mysql.md)
 - [nginx](widget/nginx.md)
+- [rss](widget/rss.md)
 - [ssh](widget/ssh.md)
 - [tex](widget/tex.md)
 
 ## lang
 
+- [c](lang/c.md)
 - [csharp](lang/csharp.md)
 - [go](lang/go.md)
 - [python](lang/python.md)
@@ -31,6 +33,7 @@
 - [terminal](config/terminal.md)
 - [vsc](config/vsc.md)
 - [win](config/win.md)
+- [web](config/web.md)
 
 ## Nav
 

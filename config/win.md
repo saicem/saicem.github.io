@@ -33,8 +33,7 @@
 
 - [screen to gif](https://github.com/NickeManarin/ScreenToGif)
 - [Captura](https://github.com/MathewSachin/Captura)
-
-> Captura 好东西！可惜维护者已经放弃了，万恶的 copy cat ！！！
+  > Captura 好东西！可惜维护者已经放弃了，万恶的 copy cat ！！！
 
 
 #### 桌面格子
@@ -69,8 +68,7 @@
   ```
 
 - [winget](https://docs.microsoft.com/en-us/windows/package-manager/winget/)
-
-> win11 起系统内置
+  > win11 起系统内置
 
 - [oh my posh](https://ohmyposh.dev/)
 
@@ -93,6 +91,8 @@
 
 - [TIM](https://office.qq.com/download.html)
 - [V2rayN](https://github.com/2dust/v2rayN/releases)
+- [fluent-reader](https://github.com/yang991178/fluent-reader)
+  > rss 阅读
 
 ### 浏览器插件
 

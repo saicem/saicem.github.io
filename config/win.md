@@ -46,7 +46,7 @@
 ```ps1
 Import-Module posh-git
 Import-Module oh-my-posh
-Set-PoshPrompt -Theme  wopian
+Set-PoshPrompt -Theme wopian
 ```
 
 ## 软件

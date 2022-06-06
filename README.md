@@ -1,12 +1,11 @@
 # Hi, BalaBala
 
-## Code
+## ✨Code
 
 - [ansi转义代码](widget/ansi.md)
 - [cmd](widget/cmd.md)
 - [cron表达式](widget/cron.md)
 - [docker](widget/docker.md)
-- [docsify](widget/docsify.md)
 - [git](widget/git.md)
 - [icalendar](widget/icalendar.md)
 - [mailx](widget/mailx.md)
@@ -16,32 +15,28 @@
 - [ssh](widget/ssh.md)
 - [tex](widget/tex.md)
 
-## lang
+## 😕lang
 
-- [c](lang/c.md)
 - [csharp](lang/csharp.md)
 - [go](lang/go.md)
 - [python](lang/python.md)
 - [R](lang/r.md)
 
-## Config
+## 🧐Config
 
 - [win](config/win.md)
 
-## Nav
+## 😴Nav
 
 - [nav](nav/README.md)
+- [art](nav/art.md)
 
-## Skill
-
-- [art](skill/art.md)
-
-## Shell
+## 😊Shell
 
 - [shell](shell/shell.md)
 - [zsh](shell/zsh.md)
 - [pwsh](shell/pwsh.md)
 
-## Archive
+## 😀Archive
 
 - [textmate](archive/textmate.md)

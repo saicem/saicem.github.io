@@ -15,3 +15,9 @@
 ## 容器不能访问外网
 
 - 可能是这个设置的问题 `sysctl -w net.ipv4.ip_forward=1`
+
+## 需要将用户加入docker组
+
+```zsh
+sudo usermod -aG docker $USER
+```

@@ -1,9 +1,5 @@
 # Hi, BalaBala
 
-## Book
-
-- [learn17](book/learn17.md)
-
 ## Code
 
 - [ansi转义代码](widget/ansi.md)
@@ -30,10 +26,7 @@
 
 ## Config
 
-- [terminal](config/terminal.md)
-- [vsc](config/vsc.md)
 - [win](config/win.md)
-- [web](config/web.md)
 
 ## Nav
 
@@ -48,3 +41,7 @@
 - [shell](shell/shell.md)
 - [zsh](shell/zsh.md)
 - [pwsh](shell/pwsh.md)
+
+## Archive
+
+- [textmate](archive/textmate.md)

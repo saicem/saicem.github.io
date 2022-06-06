@@ -1,42 +1,38 @@
-# Hi, BalaBala
+# Hi there, I'm Saicem
 
 ## ✨Code
 
 - [ansi转义代码](widget/ansi.md)
-- [cmd](widget/cmd.md)
-- [cron表达式](widget/cron.md)
-- [docker](widget/docker.md)
-- [git](widget/git.md)
-- [icalendar](widget/icalendar.md)
-- [mailx](widget/mailx.md)
-- [mysql](widget/mysql.md)
-- [nginx](widget/nginx.md)
-- [rss](widget/rss.md)
-- [ssh](widget/ssh.md)
-- [tex](widget/tex.md)
+- [Cmd](widget/cmd.md)
+- [Cron Expressions](widget/cron.md)
+- [Docker](widget/docker.md)
+- [Git](widget/git.md)
+- [CalDav](widget/icalendar.md)
+- [Mailx](widget/mailx.md)
+- [MySQL](widget/mysql.md)
+- [Nginx](widget/nginx.md)
+- [RSS](widget/rss.md)
+- [SSH](widget/ssh.md)
+- [Tex](widget/tex.md)
 
 ## 😕lang
 
-- [csharp](lang/csharp.md)
-- [go](lang/go.md)
-- [python](lang/python.md)
+- [C\#](lang/csharp.md)
+- [Golang](lang/go.md)
+- [Python](lang/python.md)
 - [R](lang/r.md)
 
 ## 🧐Config
 
-- [win](config/win.md)
+- [Windows](config/win.md)
 
 ## 😴Nav
 
-- [nav](nav/README.md)
-- [art](nav/art.md)
+- [Navigation](nav/README.md)
+- [Art](nav/art.md)
 
 ## 😊Shell
 
-- [shell](shell/shell.md)
-- [zsh](shell/zsh.md)
-- [pwsh](shell/pwsh.md)
-
-## 😀Archive
-
-- [textmate](archive/textmate.md)
+- [Shell](shell/shell.md)
+- [Zsh](shell/zsh.md)
+- [Power Shell](shell/pwsh.md)

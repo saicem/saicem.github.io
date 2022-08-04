@@ -36,10 +36,6 @@ SELECT CURRENT_TIMESTAMP;
 `update_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间'
 ```
 
-## 安装
-
-在 CentOS 8 上安装Mysql 需要使用 `dnf install @mysql`而不是 `dnf install mysql` 具体区别未知...
-
 ## 用户管理
 
 ```bash

@@ -2,7 +2,7 @@
 
 ## ✨Code
 
-- [ansi转义代码](widget/ansi.md)
+- [ANSI Escape Code](widget/ansi.md)
 - [Cmd](widget/cmd.md)
 - [Cron Expressions](widget/cron.md)
 - [Docker](widget/docker.md)
@@ -19,6 +19,7 @@
 
 - [C\#](lang/csharp.md)
 - [Golang](lang/go.md)
+- [Power Shell](lang/pwsh.md)
 - [Python](lang/python.md)
 - [R](lang/r.md)
 
@@ -30,9 +31,3 @@
 
 - [Navigation](nav/README.md)
 - [Art](nav/art.md)
-
-## 😊Shell
-
-- [Shell](shell/shell.md)
-- [Zsh](shell/zsh.md)
-- [Power Shell](shell/pwsh.md)

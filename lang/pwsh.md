@@ -39,7 +39,6 @@ function ssha ($name = "saicem") {
 }
 
 function proxyon {
-    # "set http_proxy=http://127.0.0.1:1080"
     $env:https_proxy = "https://localhost:7980"
     $env:http_proxy = "http://localhost:7980"
 }

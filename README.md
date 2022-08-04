@@ -3,7 +3,6 @@
 ## ✨Code
 
 - [ANSI Escape Code](widget/ansi.md)
-- [Cmd](widget/cmd.md)
 - [Cron Expressions](widget/cron.md)
 - [Docker](widget/docker.md)
 - [Git](widget/git.md)
@@ -11,11 +10,10 @@
 - [Mailx](widget/mailx.md)
 - [MySQL](widget/mysql.md)
 - [Nginx](widget/nginx.md)
-- [RSS](widget/rss.md)
 - [SSH](widget/ssh.md)
 - [Tex](widget/tex.md)
 
-## 😕lang
+## 😕Lang
 
 - [C\#](lang/csharp.md)
 - [Golang](lang/go.md)

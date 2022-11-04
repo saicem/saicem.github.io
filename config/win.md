@@ -35,7 +35,7 @@ function Set-Proxy {
         $env:https_proxy = "http://127.0.0.1:7981"
         $env:http_proxy = "http://127.0.0.1:7981"
         $env:all_proxy = "socks5://127.0.0.1:7980"
-        Write-Host -ForegroundColor Green "Terminal Proxy On"
+        Write-Host -ForegroundColor Green "✨ proxy ⇒ on"
     }
 }
 
@@ -48,7 +48,7 @@ function Reset-Proxy {
         $env:https_proxy = ""
         $env:http_proxy = ""
         $env:all_proxy = ""
-        Write-Host -ForegroundColor Green "Terminal Proxy Off"
+        Write-Host -ForegroundColor Green "✨ proxy ⇒ off"
     }
 }
 

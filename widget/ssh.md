@@ -1,14 +1,13 @@
 # ssh
 
-## 使用ssh连接服务器
-
-ssh连接 将 rsa_id.pub 写入 authorized_keys
-
-### 权限要求
-
-- `chmod 700 -R .ssh`
-- `chmod 600 authorized_keys`
-
 ## 在一台电脑上，如何配置多个SSH Key
 
-<https://support.huaweicloud.com/codehub_faq/codehub_faq_0002.html>
+```text
+Host alias
+    HostName hostname
+    User user
+    IdentityFile ~/.ssh/key
+```
+
+`Host` 指定别名，在本机可以替代使用。`HostName` `User` 为实际主机和用户。
+在有多个 key 的情况下配置区分连接使用的 key。

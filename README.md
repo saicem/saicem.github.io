@@ -4,11 +4,8 @@
 
 - [ANSI Escape Code](widget/ansi.md)
 - [Cron Expressions](widget/cron.md)
-- [Docker](widget/docker.md)
 - [Git](widget/git.md)
 - [CalDav](widget/icalendar.md)
-- [Mailx](widget/mailx.md)
-- [MySQL](widget/mysql.md)
 - [Nginx](widget/nginx.md)
 - [SSH](widget/ssh.md)
 - [Tex](widget/tex.md)
@@ -16,9 +13,6 @@
 ## 😕Lang
 
 - [C\#](lang/csharp.md)
-- [Golang](lang/go.md)
-- [Power Shell](lang/pwsh.md)
-- [Python](lang/python.md)
 - [R](lang/r.md)
 
 ## 🧐Config
@@ -53,18 +47,10 @@
 - [全国图书馆参考咨询联盟](http://www.ucdrs.superlib.net/)
 - [孔夫子旧书网](https://www.kongfz.com/)
 
-### PPT
-
-- [1PPT](http://www.1ppt.com/)
-
 ### PDF
 
 - [ilovepdf](https://www.ilovepdf.com/zh-cn)
 - [Smallpdf](https://smallpdf.com/cn/)
-
-### 打字
-
-- [TypingClub](https://www.typingclub.com/sportal/)
 
 ### 画画
 

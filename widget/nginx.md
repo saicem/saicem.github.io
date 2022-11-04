@@ -28,6 +28,8 @@ $uri #不带请求参数的当前URI，uri不包含主机名，如”/foo/bar.ht
 $document_uri #与$uri相同。
 ```
 
+`{name}` 代指参数名，获取 query 参数 `arg_{name}`，获取 header 参数 `http_{name}`
+
 ## Core functionality
 
 [参考链接](http://nginx.org/en/docs/ngx_core_module.html)

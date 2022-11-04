@@ -19,34 +19,41 @@
 > - 睡眠还是保持着系统运行数据在内存中，而休眠则将内存中的数据保存在硬盘中（应该是虚拟内存）
 > - 睡眠的唤醒时间应该比休眠要短
 
-## Terminal配置
+## Power Shell
 
-- [美化 PowerShell 7 - 安裝 Oh My Posh + 各種好用的插件](https://blog.kwchang0831.dev/blog/dev-env/pwsh-oh-my-posh)
-- [Windows 终端提示与技巧](https://docs.microsoft.com/zh-cn/windows/terminal/tips-and-tricks)
-
-- [自定义终端指南](https://docs.microsoft.com/zh-cn/windows/terminal/custom-terminal-gallery/custom-schemes)
-
-- [PowerShell 配置文件](https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_profiles?view=powershell-7.1)
-
-- [Custom actions in Windows Terminal](https://docs.microsoft.com/zh-cn/windows/terminal/customize-settings/actions)
-
-### Terminal 常用快捷键
-
-- `alt+shift+plus` 新垂直窗格
-- `alt+shift+-` 新水平窗格
-- 按住`alt`键即可切换窗格
-- 按住`alt+shift`并使用箭头键调整焦点窗格的大小
-- 键入`ctrl+shift+w`来关闭焦点窗格
-- `ctrl+shift+t` New tab
-- `ctrl+tab` Open next tab
-- `ctrl+shift+tab` Open previous tab
-
-### [oh my posh](https://ohmyposh.dev/)
-
-```ps1
+```powershell
 Import-Module posh-git
 Import-Module oh-my-posh
-Set-PoshPrompt -Theme wopian
+Set-PoshPrompt -Theme robbyrussel
+
+function Set-Proxy {
+    param(
+        $Name = "terminal"
+    )
+
+    if ($Name -eq "terminal") {
+        $env:https_proxy = "http://127.0.0.1:7981"
+        $env:http_proxy = "http://127.0.0.1:7981"
+        $env:all_proxy = "socks5://127.0.0.1:7980"
+        Write-Host -ForegroundColor Green "Terminal Proxy On"
+    }
+}
+
+function Reset-Proxy {
+    param(
+        $Name = "terminal"
+    )
+
+    if ($Name -eq "terminal") {
+        $env:https_proxy = ""
+        $env:http_proxy = ""
+        $env:all_proxy = ""
+        Write-Host -ForegroundColor Green "Terminal Proxy Off"
+    }
+}
+
+Set-Alias spx Set-Proxy
+Set-Alias rpx Reset-Proxy
 ```
 
 ## 软件
@@ -57,40 +64,17 @@ Set-PoshPrompt -Theme wopian
 - [Coodesker](https://www.coodesker.com/)【在[Github](https://github.com/coodesker/coodesker-desktop)上，但并不开源】
 - [Bandzip](http://www.bandisoft.com/)
 - [7z](https://www.7-zip.org/)
-- [VS CODE](https://code.visualstudio.com/)
-- [Visual Studio](https://visualstudio.microsoft.com/zh-hans/)
-- [Git](https://git-scm.com/download/win)
-- ApiFox
+- [ApiFox](https://www.apifox.cn/)
 - [WinSCP](https://winscp.net/eng/docs/lang:chs)
 - [DBeaver](https://dbeaver.io/)
 - [BloomRpc](https://github.com/bloomrpc/bloomrpc)
-- [TIM](https://office.qq.com/download.html)
 - [V2rayN](https://github.com/2dust/v2rayN/releases)
-- [fluent-reader](https://github.com/yang991178/fluent-reader)【rss 阅读】
-- CCleaner
-- [geek](https://geekuninstaller.com/)【傻瓜式卸载软件】
-- [WizTree](https://www.diskanalyzer.com/download) 【中文界面，速度快】
-- Autoruns【注册表清理工具】
-- OCTAVE【开源软件 代替 MATLAB】
-- 达芬奇 DaVinci
+- [geek](https://geekuninstaller.com/) 【傻瓜式卸载软件】
+- [WizTree](https://www.diskanalyzer.com/download) 【速度超快】
+- [Autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns) 【注册表清理工具，微软提供】
 - [PotPlayer](https://potplayer.daum.net/?lang=zh_CN)
-- Axure
 - [draw.io](https://app.diagrams.net/)
-
-## 编程语言
-
-- [Python](https://www.python.org/downloads/)
-  > 设置清华源`pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple`
-- [go](https://golang.org/)
-- [C](https://nuwen.net/mingw.html)
-- [mingw-w64](http://mingw-w64.org/doku.php/download)
-  > 它会让你在这[下载](https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/)
-
-```pwsh
-# 设置模块代理
-go env -w GO111MODULE=on
-go env -w GOPROXY=https://goproxy.cn,direct
-```
+- [HTTPie](https://httpie.io/)
 
 ## 浏览器插件
 

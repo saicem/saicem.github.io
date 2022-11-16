@@ -14,6 +14,7 @@
 
 - [C\#](lang/csharp.md)
 - [R](lang/r.md)
+- [Bash](lang/bash.md)
 
 ## 🧐Config
 

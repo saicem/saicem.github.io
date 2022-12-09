@@ -20,6 +20,10 @@
 
 - [Windows](config/win.md)
 
+## 😊Course
+
+- [写给电脑白痴的 steam 教程](course/steam/)
+
 ## 😴Nav
 
 ### 读物

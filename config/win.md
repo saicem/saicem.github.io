@@ -75,6 +75,7 @@ Set-Alias rpx Reset-Proxy
 - [PotPlayer](https://potplayer.daum.net/?lang=zh_CN)
 - [draw.io](https://app.diagrams.net/)
 - [HTTPie](https://httpie.io/)
+- [EarTrumpet](https://eartrumpet.app/)【电脑音频管理】
 
 ## 浏览器插件
 

@@ -19,6 +19,7 @@
 ## 🧐Config
 
 - [Windows](config/win.md)
+- [Android](config/android.md)
 
 ## 😊Course
 

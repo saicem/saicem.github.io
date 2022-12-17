@@ -6,7 +6,7 @@
 
 ## 找到 steam 官方网站
 
-你可以直接点击这个链接，https://store.steampowered.com/。
+你可以直接点击这个链接，<https://store.steampowered.com/>。
 但我想你也应该有如何直接从搜索引擎找到目标的能力，基本的方法是识别域名，就是上边的链接，他是正常的单词，而且你要搜索的是 steam，store.steampowered.com 包含 steam 这个单词，他大概率是你需要寻找的网站而其他的就不是。
 
 ![百度搜索结果](search_baidu.png)

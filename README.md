@@ -9,6 +9,8 @@
 - [Nginx](widget/nginx.md)
 - [SSH](widget/ssh.md)
 - [Tex](widget/tex.md)
+- [Cert](widget/cert.md)
+- [YUMI](widget/yumi.md)
 
 ## 😕Lang
 

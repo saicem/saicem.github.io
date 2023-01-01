@@ -39,9 +39,9 @@ END:VCALENDAR
 ```ical
 BEGIN:VEVENT                                    # 事件开始标识
 UID:20210109T172659Z-0121904950722-1            # UID 只要不同就好了
-SUMMARY:通用学术英语                             # 事件概要
-LOCATION:博学北楼(原新4)-312                     # 事件发生地点
-DESCRIPTION:汪鹭                                # 事件发生的详细信息
+SUMMARY:通用学术英语                              # 事件概要
+LOCATION:博学北楼(原新4)-312                      # 事件发生地点
+DESCRIPTION:汪鹭                                 # 事件发生的详细信息
 DTSTAMP:20210109T172659Z                        # 时间戳 实际随便写
 DTSTART:20210426T000000Z                        # 事件开始时间
 DTEND:20210426T013500Z                          # 事件结束事件

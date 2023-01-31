@@ -58,30 +58,33 @@ Set-Alias rpx Reset-Proxy
 
 ## 软件
 
-- [PowerToys](https://docs.microsoft.com/zh-cn/windows/powertoys/)
+- [PowerToys](https://docs.microsoft.com/zh-cn/windows/powertoys/)【Win工具箱】
 - [office tool plus](https://otp.landian.vip/zh-cn/)【装office很方便】
-- [Captura](https://github.com/MathewSachin/Captura)
+- [Captura](https://github.com/MathewSachin/Captura)【录屏】
 - [Coodesker](https://www.coodesker.com/)【在[Github](https://github.com/coodesker/coodesker-desktop)上，但并不开源】
-- [Bandzip](http://www.bandisoft.com/)
-- [7z](https://www.7-zip.org/)
+- [Bandzip](http://www.bandisoft.com/)【6.25无广告】
+- [7z](https://www.7-zip.org/)【图形界面无法处理编码问题】
 - [ApiFox](https://www.apifox.cn/)
 - [WinSCP](https://winscp.net/eng/docs/lang:chs)
-- [DBeaver](https://dbeaver.io/)
+- [DBeaver](https://dbeaver.io/)【开源的数据库管理】
 - [BloomRpc](https://github.com/bloomrpc/bloomrpc)
 - [V2rayN](https://github.com/2dust/v2rayN/releases)
+- [PotPlayer](https://potplayer.daum.net/?lang=zh_CN)
+- [draw.io](https://app.diagrams.net/)
+- [HTTPie](https://httpie.io/)【代替 Postman】
+- [EarTrumpet](https://eartrumpet.app/)【电脑音频管理，当你有多个发出声音的设备的时候】
 - [geek](https://geekuninstaller.com/) 【傻瓜式卸载软件】
 - [WizTree](https://www.diskanalyzer.com/download) 【速度超快】
 - [Autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns) 【注册表清理工具，微软提供】
-- [PotPlayer](https://potplayer.daum.net/?lang=zh_CN)
-- [draw.io](https://app.diagrams.net/)
-- [HTTPie](https://httpie.io/)
-- [EarTrumpet](https://eartrumpet.app/)【电脑音频管理】
+- [ContextMenuManager](https://gitee.com/BluePointLilac/ContextMenuManager/releases)【上下文菜单管理】
 
 ## 浏览器插件
 
-- Adblock plus
-- Tampermonkey
+- Adblock plus | AdGuard
 - 草料二维码 【方便的在电脑处理二维码】
 - Vimium C
-- iTab【漂亮的浏览器起始页】
 - uBlacklist 【拒绝内容农场】
+
+### Tampermonkey
+
+- [Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved/releases)

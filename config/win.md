@@ -13,43 +13,19 @@
 - 回收站隐藏➡主题➡桌面图标设置
 - 系统保护➡系统还原➡设置还原点
 
-> 睡眠和休眠
->
-> - 睡眠还保持着开机状态的，休眠是关机了，但是再次开机之后和关闭时的系统状态是一样的
-> - 睡眠还是保持着系统运行数据在内存中，而休眠则将内存中的数据保存在硬盘中（应该是虚拟内存）
-> - 睡眠的唤醒时间应该比休眠要短
-
 ## Power Shell
 
 ```powershell
-Import-Module posh-git
-Import-Module oh-my-posh
-Set-PoshPrompt -Theme robbyrussel
-
 function Set-Proxy {
-    param(
-        $Name = "terminal"
-    )
-
-    if ($Name -eq "terminal") {
-        $env:https_proxy = "http://127.0.0.1:7981"
-        $env:http_proxy = "http://127.0.0.1:7981"
-        $env:all_proxy = "socks5://127.0.0.1:7980"
-        Write-Host -ForegroundColor Green "✨ proxy ⇒ on"
-    }
+    $env:https_proxy = "http://127.0.0.1:7980"
+    $env:http_proxy = "http://127.0.0.1:7980"
+    Write-Host -ForegroundColor Green "✨ proxy ⇒ on"
 }
 
 function Reset-Proxy {
-    param(
-        $Name = "terminal"
-    )
-
-    if ($Name -eq "terminal") {
-        $env:https_proxy = ""
-        $env:http_proxy = ""
-        $env:all_proxy = ""
-        Write-Host -ForegroundColor Green "✨ proxy ⇒ off"
-    }
+    $env:https_proxy = ""
+    $env:http_proxy = ""
+    Write-Host -ForegroundColor Green "✨ proxy ⇒ off"
 }
 
 Set-Alias spx Set-Proxy

@@ -6,6 +6,7 @@
 - [Cron Expressions](widget/cron.md)
 - [Git](widget/git.md)
 - [CalDav](widget/icalendar.md)
+- [Docker](widget/docker.md)
 - [Nginx](widget/nginx.md)
 - [SSH](widget/ssh.md)
 - [Tex](widget/tex.md)

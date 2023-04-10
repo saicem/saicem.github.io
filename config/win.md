@@ -17,8 +17,8 @@
 
 ```powershell
 function Set-Proxy {
-    $env:https_proxy = "http://127.0.0.1:7980"
-    $env:http_proxy = "http://127.0.0.1:7980"
+    $env:https_proxy = "http://127.0.0.1:7890"
+    $env:http_proxy = "http://127.0.0.1:7890"
     Write-Host -ForegroundColor Green "✨ proxy ⇒ on"
 }
 
@@ -53,3 +53,12 @@ Set-Alias rpx Reset-Proxy
 - [WizTree](https://www.diskanalyzer.com/download) 【速度超快】
 - [Autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns) 【注册表清理工具，微软提供】
 - [ContextMenuManager](https://gitee.com/BluePointLilac/ContextMenuManager/releases)【上下文菜单管理】
+
+## 编程环境
+
+### 换源
+
+```pwsh
+npm config set registry https://registry.npm.taobao.org
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+```

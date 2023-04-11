@@ -24,6 +24,7 @@
 
 - [Windows](config/win.md)
 - [Android](config/android.md)
+- [Browser](config/browser.md)
 
 ## 😊Course
 

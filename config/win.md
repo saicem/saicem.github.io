@@ -44,8 +44,9 @@ Set-Alias rpx Reset-Proxy
 - [WinSCP](https://winscp.net/eng/docs/lang:chs)
 - [DBeaver](https://dbeaver.io/)【开源的数据库管理】
 - [BloomRpc](https://github.com/bloomrpc/bloomrpc)
-- [V2rayN](https://github.com/2dust/v2rayN/releases)
 - [PotPlayer](https://potplayer.daum.net/?lang=zh_CN)
+- [V2rayN](https://github.com/2dust/v2rayN/releases)
+- [Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg/releases)
 - [draw.io](https://app.diagrams.net/)
 - [HTTPie](https://httpie.io/)【代替 Postman】
 - [EarTrumpet](https://eartrumpet.app/)【电脑音频管理，当你有多个发出声音的设备的时候】
@@ -53,6 +54,7 @@ Set-Alias rpx Reset-Proxy
 - [WizTree](https://www.diskanalyzer.com/download) 【速度超快】
 - [Autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns) 【注册表清理工具，微软提供】
 - [ContextMenuManager](https://gitee.com/BluePointLilac/ContextMenuManager/releases)【上下文菜单管理】
+- [Motrix](https://motrix.app/zh-CN/)【下载工具】
 
 ## 编程环境
 
@@ -61,4 +63,17 @@ Set-Alias rpx Reset-Proxy
 ```pwsh
 npm config set registry https://registry.npm.taobao.org
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
+- `.cargo/config.toml`
+
+```toml
+[registries]
+ustc = { index = "https://mirrors.ustc.edu.cn/crates.io-index/" }
+
+[source.crates-io]
+replace-with = 'ustc'
+
+[source.ustc]
+registry = "git://mirrors.ustc.edu.cn/crates.io-index"
 ```

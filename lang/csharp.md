@@ -77,3 +77,12 @@ services.AddSwaggerGen(c =>
 ## 好用的库
 
 - [fluent-url](https://flurl.dev/) fluent 写起来就是舒服！
+
+## ASP.NET 环境变量
+
+- `{Scheme}://{ServiceHost}:{ServicePort}` 可以用在 launchUrl
+- `ASPNETCORE_URLS` [设置监听端口](https://learn.microsoft.com/zh-cn/aspnet/core/fundamentals/minimal-apis?view=aspnetcore-7.0#set-the-ports-via-the-aspnetcore_urls-environment-variable)
+
+### 在 Linux 上转义环境变量
+
+使用 `systemd-escape` 命令

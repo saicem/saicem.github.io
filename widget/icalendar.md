@@ -2,7 +2,7 @@
 
 ## 关于icalendar
 
-`iCalendar`，是一种标准的互联网日历格式，文件以`.ics`后缀。让用户能够在各种计算机和各种程序之间创建和共享电子日历。目前已受众多应用支持。如outlook，gmail，iCloud日历，华为日历，小米日历。使用webcal协议可以从网络订阅日历，这使得日历能有更丰富的应用。
+`iCalendar`，是一种标准的互联网日历格式，文件以`.ics`后缀。让用户能够在各种计算机和各种程序之间创建和共享电子日历。目前已受众多应用支持。如outlook，gmail，iCloud日历，华为日历，小米日历。使用 `webcal` 协议可以从网络订阅日历，这使得日历能有更丰富的应用。
 
 详情可参考[iCalendar.org](https://icalendar.org/)或[RFC 5545](https://tools.ietf.org/html/rfc5545)
 RFC看的挺难受的，你或许需要一个看RFC的[教程](https://zhuanlan.zhihu.com/p/44635072)
@@ -75,7 +75,7 @@ END:VEVENT                                      # 事件结束标识
 DTSTART;TZID=America/New_York:19980119T020000
 ```
 
-针对全部事件见组件[Time Zone](#Time-Zone)
+针对全部事件见组件[Time Zone](#time-zone)
 
 `TZID` 属性参数不能被用于 `DATE` `DATE-TIME` `TIME` 的属性，因为他们被特定为UTC.（国际协调时间）
 

@@ -73,3 +73,7 @@ services.AddSwaggerGen(c =>
   c.IncludeXmlComments(xmlPath);
 });
 ```
+
+## 好用的库
+
+- [fluent-url](https://flurl.dev/) fluent 写起来就是舒服！

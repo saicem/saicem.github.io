@@ -16,20 +16,35 @@
 ## Power Shell
 
 ```powershell
+# 🥵🥶👻🦄❗❓⁉️⚠️✨
+
 function Set-Proxy {
     $env:https_proxy = "http://127.0.0.1:7890"
     $env:http_proxy = "http://127.0.0.1:7890"
-    Write-Host -ForegroundColor Green "✨ proxy ⇒ on"
+    $env:all_proxy = "socks5://127.0.0.1:7891"
+    Write-Host -ForegroundColor Green "✨ proxy → on"
 }
 
 function Reset-Proxy {
     $env:https_proxy = ""
     $env:http_proxy = ""
-    Write-Host -ForegroundColor Green "✨ proxy ⇒ off"
+    $env:all_proxy = ""
+    Write-Host -ForegroundColor Green "✨ proxy → off"
 }
 
 Set-Alias spx Set-Proxy
 Set-Alias rpx Reset-Proxy
+
+# https://ohmyposh.dev/docs/themes
+# oh-my-posh init pwsh | Invoke-Expression
+# Get-PoshThemes
+# material
+
+# 设置自己的命令行提示
+# function prompt {
+#     # "PS $($executionContext.SessionState.Path.CurrentLocation)$('>' * ($nestedPromptLevel + 1)) ";
+#     "`e[34m$env:UserName`e[0m ";
+# }
 ```
 
 ## 软件

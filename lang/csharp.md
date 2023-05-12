@@ -78,6 +78,10 @@ services.AddSwaggerGen(c =>
 
 - [fluent-url](https://flurl.dev/) fluent 写起来就是舒服！
 
+## 数据库
+
+- `ConnectionStrings__AppDb` `Server=?;Database=?;Uid=?;Pwd=?;` 参考 [connectionstrings.com](https://www.connectionstrings.com/mysql/)
+
 ## ASP.NET 环境变量
 
 - `{Scheme}://{ServiceHost}:{ServicePort}` 可以用在 launchUrl

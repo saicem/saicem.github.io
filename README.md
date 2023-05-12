@@ -5,7 +5,7 @@
 - [ANSI Escape Code](widget/ansi.md)
 - [Cron Expressions](widget/cron.md)
 - [Git](widget/git.md)
-- [CalDav](widget/icalendar.md)
+- [iCal](archive/ical/)
 - [Docker](widget/docker.md)
 - [Nginx](widget/nginx.md)
 - [SSH](widget/ssh.md)

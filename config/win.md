@@ -4,20 +4,30 @@
 
 ## 系统设置
 
-- 显示文件后缀名
-- 显示隐藏文件
+- 隐私和安全性 开发者选项
+  - 开发人员模式
+  - 显示文件扩展名
+  - 显示隐藏和系统文件
+  - 终端 Windows 终端
 - 剪切板➡开启历史记录
-- 搜索➡增强
-- 输入法默认模式➡英文
+- Windows Search➡增强
+- 个性化 文本输入 更多设置 候选字词窗口 候选词数
+- 语言与区域 微软拼音 键盘选项
+  - 键盘选项 模式切换➡Shift
+  - 常规 选择输入法默认模式➡英语
 - 电源和睡眠➡其他电源设置➡启用快速启动（推荐）关闭
 - 回收站隐藏➡主题➡桌面图标设置
 - 系统保护➡系统还原➡设置还原点
 
+### Windows 安全中心
+
+- 应用和浏览器控制
+  - 检查应用和文件
+  - 适用于 Microsoft Edge 的 SmartScreen
+
 ## Power Shell
 
 ```powershell
-# 🥵🥶👻🦄❗❓⁉️⚠️✨
-
 function Set-Proxy {
     $env:https_proxy = "http://127.0.0.1:7890"
     $env:http_proxy = "http://127.0.0.1:7890"
@@ -35,14 +45,17 @@ function Reset-Proxy {
 Set-Alias spx Set-Proxy
 Set-Alias rpx Reset-Proxy
 
+
 # https://ohmyposh.dev/docs/themes
+# https://www.nerdfonts.com/font-downloads 'CaskaydiaCove Nerd Font'
 # oh-my-posh init pwsh | Invoke-Expression
-# Get-PoshThemes
 # material
+oh-my-posh init pwsh --config 'C:\Users\saicem\AppData\Local\Programs\oh-my-posh\themes\material.omp.json' | Invoke-Expression
 
 # 设置自己的命令行提示
 # function prompt {
 #     # "PS $($executionContext.SessionState.Path.CurrentLocation)$('>' * ($nestedPromptLevel + 1)) ";
+#     # 🥵🥶👻🦄🐇❗❓⁉️☢️☣️⚠️
 #     "`e[34m$env:UserName`e[0m ";
 # }
 ```

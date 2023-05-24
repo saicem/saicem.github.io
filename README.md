@@ -25,6 +25,7 @@
 - [Windows](config/win.md)
 - [Android](config/android.md)
 - [Browser](config/browser.md)
+- [WSL](config/wsl.md)
 
 ## 😊Course
 

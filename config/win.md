@@ -83,6 +83,7 @@ oh-my-posh init pwsh --config 'C:\Users\saicem\AppData\Local\Programs\oh-my-posh
 - [Autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns) 【注册表清理工具，微软提供】
 - [ContextMenuManager](https://gitee.com/BluePointLilac/ContextMenuManager/releases)【上下文菜单管理】
 - [Motrix](https://motrix.app/zh-CN/)【下载工具】
+- [Scrcpy](https://github.com/Genymobile/scrcpy/releases)【安卓投屏】
 
 ## 编程环境
 

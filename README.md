@@ -26,6 +26,7 @@
 - [Android](config/android.md)
 - [Browser](config/browser.md)
 - [WSL](config/wsl.md)
+- [Python for Ubuntu](config/python-ubuntu.md)
 
 ## 😊Course
 

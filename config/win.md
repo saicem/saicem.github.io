@@ -84,6 +84,8 @@ oh-my-posh init pwsh --config 'C:\Users\saicem\AppData\Local\Programs\oh-my-posh
 - [ContextMenuManager](https://gitee.com/BluePointLilac/ContextMenuManager/releases)【上下文菜单管理】
 - [Motrix](https://motrix.app/zh-CN/)【下载工具】
 - [Scrcpy](https://github.com/Genymobile/scrcpy/releases)【安卓投屏】
+- [Fluent Reader](https://github.com/yang991178/fluent-reader/releases)【RSS 阅读器】
+- Auto Dark Mode + WinDynamicDesktop + Dark Reader【自动切换深色模式...从微软商店下载】
 
 ## 编程环境
 

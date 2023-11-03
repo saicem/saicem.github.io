@@ -18,8 +18,6 @@
 ## 🧐Config
 
 - [Windows](config/win.md)
-- [Android](config/android.md)
-- [Browser](config/browser.md)
 - [WSL](config/wsl.md)
 - [Python for Ubuntu](config/python-ubuntu.md)
 
@@ -29,6 +27,7 @@
 
 ## 有趣的科普网站
 
+- [自行车如何保持平衡的](https://ciechanow.ski/bicycle/)
 - [声音合成器](https://learningsynths.ableton.com/zh-Hans/get-started)
 - [GPS工作原理](https://pages.longtian.info/gps/)
 - [制作二维码](https://www.nayuki.io/page/creating-a-qr-code-step-by-step)

@@ -20,6 +20,7 @@
 - [Windows](config/win.md)
 - [WSL](config/wsl.md)
 - [Python for Ubuntu](config/python-ubuntu.md)
+- [KMS](https://www.coolhub.top/tech-articles/kms_list.html)
 
 ## 😊Course
 

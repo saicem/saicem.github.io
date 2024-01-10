@@ -6,7 +6,6 @@
 - [iCal](archive/ical.md)
 - [Docker](widget/docker.md)
 - [Nginx](widget/nginx.md)
-- [SSH](widget/ssh.md)
 - [Docker](widget/docker.md)
 - [Windows Service](archive/win_service.md)
 

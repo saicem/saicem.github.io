@@ -24,20 +24,6 @@ Add-Migration InitialCreate
 Update-Database
 ```
 
-### 额外的问题
-
-- 程序不要乱起名！出了问题都找不到原因！
-- 如果一个解决方案有多个项目，要确保所有项目都能成功编译，不然会`Add-Migration`会报错。
-- CodeFirst时需要先添加主键，如果表中含有id属性，则id默认为主键。
-
-### 更多
-
-#### More than one DbContext was found. Specify which one to use. Use the '-Context' parameter for PowerShell commands and the '--context' parameter for dotnet commands
-
-```shell
-add-migrations Initial -context DemoDbContext
-```
-
 忘了再看 [安装EF Core](https://docs.microsoft.com/zh-cn/ef/core/get-started/overview/install)
 
 ## Serilog

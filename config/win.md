@@ -54,7 +54,7 @@ oh-my-posh init pwsh --config 'C:\Users\saicem\AppData\Local\Programs\oh-my-posh
 ## 软件
 
 - [PowerToys](https://docs.microsoft.com/zh-cn/windows/powertoys/)【Win工具箱】
-- [office tool plus](https://otp.landian.vip/zh-cn/)【装office很方便】
+- [office tool plus](https://otp.landian.vip/zh-cn/)【装office很方便，[KMS列表](https://www.coolhub.top/tech-articles/kms_list.html)】
 - [Captura](https://github.com/MathewSachin/Captura)【录屏】
 - [Bandzip](http://www.bandisoft.com/)【6.25无广告】
 - [7z](https://www.7-zip.org/)【图形界面无法处理编码问题】
@@ -62,7 +62,6 @@ oh-my-posh init pwsh --config 'C:\Users\saicem\AppData\Local\Programs\oh-my-posh
 - [DBeaver](https://dbeaver.io/)【开源的数据库管理】
 - [V2rayN](https://github.com/2dust/v2rayN/releases)
 - [draw.io](https://app.diagrams.net/)
-- [EarTrumpet](https://eartrumpet.app/)【电脑音频管理，当你有多个发出声音的设备的时候】
 - [geek](https://geekuninstaller.com/) 【傻瓜式卸载软件】
 - [WizTree](https://www.diskanalyzer.com/download) 【速度超快】
 - [Autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns) 【注册表清理工具，微软提供】

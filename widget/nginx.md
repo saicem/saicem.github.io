@@ -47,14 +47,3 @@ $document_uri #与$uri相同。
 **listen 443 与 listen 443 ssl 的区别?**
 
 只要配置了证书，都可以通过https访问。但没有ssl的话，可以直接通过443端口访问，而设置了ssl则会返回。
-
-```html
-<html>
-<head><title>400 The plain HTTP request was sent to HTTPS port</title></head>
-<body bgcolor="white">
-<center><h1>400 Bad Request</h1></center>
-<center>The plain HTTP request was sent to HTTPS port</center>
-<hr><center>nginx/1.14.1</center>
-</body>
-</html>
-```

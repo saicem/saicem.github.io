@@ -26,26 +26,6 @@ Update-Database
 
 忘了再看 [安装EF Core](https://docs.microsoft.com/zh-cn/ef/core/get-started/overview/install)
 
-## Serilog
-
-```C#
-Log.Logger = new LoggerConfiguration()
-  .MinimumLevel.Debug()
-  .WriteTo.Console()
-  .WriteTo.File($"logs/Log_.txt", rollingInterval: RollingInterval.Month)
-  .CreateLogger();
-```
-
-## .NET
-
-自定义端口
-
-```C#
-webBuilder.UseUrls("http://+:5917");
-  webBuilder.UseSetting("https_port", "5918");
-  webBuilder.UseStartup<Startup>();
-```
-
 ## 生成Api文档(xml)
 
 项目 -> 属性 -> 输出 -> 文档文件 生成包含API文档的文件
@@ -53,16 +33,11 @@ webBuilder.UseUrls("http://+:5917");
 ```C#
 services.AddSwaggerGen(c =>
 {
-  c.SwaggerDoc("v1", new OpenApiInfo { Title = "BotWonder", Version = "v1" });
   var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
   var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
   c.IncludeXmlComments(xmlPath);
 });
 ```
-
-## 好用的库
-
-- [fluent-url](https://flurl.dev/) fluent 写起来就是舒服！
 
 ## 数据库
 

@@ -2,12 +2,10 @@
 
 ## ✨Code
 
-- [ANSI Escape Code](widget/ansi.md)
-- [iCal](archive/ical.md)
-- [Docker](widget/docker.md)
-- [Nginx](widget/nginx.md)
-- [Docker](widget/docker.md)
-- [Windows Service](archive/win_service.md)
+- [ANSI Escape Code](code/ansi.md)
+- [iCal](code/ical.md)
+- [Docker](code/docker.md)
+- [Nginx](code/nginx.md)
 
 ## 😕Lang
 
@@ -18,7 +16,6 @@
 
 - [Windows](config/win.md)
 - [WSL](config/wsl.md)
-- [Python for Ubuntu](config/python-ubuntu.md)
 - [KMS](https://www.coolhub.top/tech-articles/kms_list.html)
 
 ## 😊Course

@@ -43,7 +43,7 @@ Set-Alias rpx Reset-Proxy
 ## 软件
 
 - [PowerToys](https://docs.microsoft.com/zh-cn/windows/powertoys/)【Win工具箱】
-- [office tool plus](https://otp.landian.vip/zh-cn/)【安装office，[KMS列表](https://www.coolhub.top/tech-articles/kms_list.html)】
+- [Office Tool Plus](https://otp.landian.vip/zh-cn/)【安装office，[KMS列表](https://www.coolhub.top/tech-articles/kms_list.html)】
 - [Bandzip](http://www.bandisoft.com/)【6.25无广告】
 - [7z](https://www.7-zip.org/)【图形界面无法处理编码问题】
 - [ApiFox](https://www.apifox.cn/)

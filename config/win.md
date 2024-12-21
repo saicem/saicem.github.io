@@ -23,9 +23,6 @@
 ## Power Shell
 
 ```powershell
-# https://ohmyposh.dev/docs/themes
-# https://www.nerdfonts.com/font-downloads 'CaskaydiaCove Nerd Font'
-
 function Set-Proxy {
     $env:http_proxy = "http://127.0.0.1:7890"
     Write-Host -ForegroundColor Green "✨ proxy → on"
@@ -43,18 +40,16 @@ Set-Alias rpx Reset-Proxy
 ## 软件
 
 - [PowerToys](https://docs.microsoft.com/zh-cn/windows/powertoys/)【Win工具箱】
-- [Office Tool Plus](https://otp.landian.vip/zh-cn/)【安装office，[KMS列表](https://www.coolhub.top/tech-articles/kms_list.html)】
+- [Office Tool Plus](https://otp.landian.vip/zh-cn/)【[KMS列表](https://www.coolhub.top/tech-articles/kms_list.html)】
 - [Bandzip](http://www.bandisoft.com/)【6.25无广告】
 - [7z](https://www.7-zip.org/)【图形界面无法处理编码问题】
-- [ApiFox](https://www.apifox.cn/)
-- [DBeaver](https://dbeaver.io/)【开源的数据库管理】
-- [V2rayN](https://github.com/2dust/v2rayN/releases)
 - [draw.io](https://app.diagrams.net/)
 - [WizTree](https://www.diskanalyzer.com/download) 【速度超快、存储占用分析】
 - [Autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns) 【注册表清理工具，微软提供】
 - [ContextMenuManager](https://gitee.com/BluePointLilac/ContextMenuManager/releases)【右键菜单管理】
 - [Geek](https://geekuninstaller.com/) 【傻瓜式卸载软件】
 - [Motrix](https://motrix.app/zh-CN/)【下载工具】
+- [qBittorrent](https://www.qbittorrent.org/download)
 - [Scrcpy](https://github.com/Genymobile/scrcpy/releases)【安卓投屏至电脑】
 - [LocalSend](https://localsend.org)【开源、跨平台、局域网文件分享】
 - [Syncthing](https://syncthing.net/)【开源、跨平台、局域网文件同步】

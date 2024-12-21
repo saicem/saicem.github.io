@@ -15,12 +15,6 @@
 ## 🧐Config
 
 - [Windows](config/win.md)
-- [WSL](config/wsl.md)
-- [KMS](https://www.coolhub.top/tech-articles/kms_list.html)
-
-## 😊Course
-
-- [写给电脑白痴的 steam 教程](course/steam/)
 
 ## 有趣的科普网站
 

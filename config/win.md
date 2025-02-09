@@ -53,6 +53,7 @@ Set-Alias rpx Reset-Proxy
 - [Scrcpy](https://github.com/Genymobile/scrcpy/releases)【安卓投屏至电脑】
 - [LocalSend](https://localsend.org)【开源、跨平台、局域网文件分享】
 - [Syncthing](https://syncthing.net/)【开源、跨平台、局域网文件同步】
+- [k-lite_codec_pack](https://www.codecguide.com/download_kl.htm)【解决不显示某些视频缩略图的问题】
 
 ## 浏览器插件
 

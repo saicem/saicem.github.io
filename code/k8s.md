@@ -18,11 +18,33 @@ EOF
 curl -sfL https://rancher-mirror.rancher.cn/k3s/k3s-install.sh | INSTALL_K3S_MIRROR=cn sh -
 # 将配置复制到本用户以正常使用 kubectl
 sudo cat /etc/rancher/k3s/k3s.yaml > ~/.kube/config
+```
 
-# 查看 traefik 日志
-kubectl logs -n kube-system -l app.kubernetes.io/name=traefik --tail=100 -f
+### 配置 traefik 自动更新证书
 
+准备 values.yaml
+
+```yaml
+additionalArguments:
+  - --certificatesresolvers.default.acme.email=example@example.com
+  - --certificatesresolvers.default.acme.storage=/data/acme.json
+  - --certificatesresolvers.default.acme.httpchallenge.entrypoint=web
+```
+
+```bash
 # 更新 traefik 配置
 helm upgrade traefik traefik/traefik -f traefik-values.yaml -n kube-system
 
+# 查看 traefik 日志
+kubectl logs -n kube-system -l app.kubernetes.io/name=traefik --tail=100 -f
+```
+
+更新对应 ingress 的 yaml
+```yaml
+metadata:
+  annotations:
+    kubernets.io/ingress.class: traefik
+    traefik.ingress.kubernetes.io/router.entrypoints: websecure
+    traefik.ingress.kubernetes.io/router.tls: "true"
+    traefik.ingress.kubernetes.io/router.tls.certresolver: default
 ```

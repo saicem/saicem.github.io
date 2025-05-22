@@ -6,6 +6,7 @@
 - [iCal](code/ical.md)
 - [Docker](code/docker.md)
 - [Nginx](code/nginx.md)
+- [Kubernetes](code/k8s.md)
 
 ## 😕Lang
 
